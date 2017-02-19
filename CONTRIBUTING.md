@@ -2,7 +2,7 @@
 
 Thank you so much for your interest in contributing!. All types of contributions are encouraged and valued. See below for different ways to help, and details about how this project handles them!
 
-Please make sure to read the relevant section before making your contribution! It will make it a lot easier for us maintainers to make the most of it and smooth out the experience fo all involved. 💚
+Please make sure to read the relevant section before making your contribution! It will make it a lot easier for us maintainers to make the most of it and smooth out the experience for all involved. 💚
 
 The [Project Team](#join-the-project-team) looks forward to your contributions.~
 
