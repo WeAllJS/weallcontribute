@@ -24,7 +24,7 @@ The [Project Team](#join-the-project-team) looks forward to your contributions.~
   * [Merge Pull Requests](#merge-pull-requests)
   * [Tag a Release](#tag-a-release)
   * [Join the Project Team](#join-the-project-team)
-* [Add a Guide Like This One To My Project](#Attribution) 🤖😻👻
+* [Add a Guide Like This One To My Project](#attribution) 🤖😻👻
 
 ## Request Support
 
@@ -248,4 +248,4 @@ Admin/Owner | Granted to people ultimately responsible for the project, its comm
 
 ## Attribution
 
-This guide was generated using the WeAllJS CONTRIBUTING.md generator. [Make your own!](https://npm.im/weallcontribute)
+This guide was generated using the WeAllJS `CONTRIBUTING.md` generator. [Make your own](https://npm.im/weallcontribute)!
