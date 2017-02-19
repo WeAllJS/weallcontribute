@@ -56,7 +56,7 @@ if (!yargs.argv.output) {
   process.exit(0)
 }
 
-var target = yargs.argv.output
+var target = path.resolve(yargs.argv.output)
 try {
   if (fs.statSync(target).isDirectory()) {
     target = path.join(target, 'CONTRIBUTING.md')
