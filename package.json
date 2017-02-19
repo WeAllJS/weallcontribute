@@ -1,6 +1,6 @@
 {
   "name": "weallcontribute",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "CONTRIBUTING.md generator",
   "main": "index.js",
   "files": [
