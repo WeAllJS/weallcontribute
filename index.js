@@ -49,7 +49,7 @@ if (repo.type !== 'github') {
 var contrib = fs.readFileSync(
   path.join(__dirname, 'CONTRIBUTING.md'),
   'utf8'
-).replace(/wealljs\/weallcontribute/g, repo.path())
+).replace(/wealljs\/weallcontribute/gi, repo.path())
 
 if (!yargs.argv.output) {
   console.log(contrib)
