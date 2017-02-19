@@ -1,0 +1,33 @@
+{
+  "name": "weallcontribute",
+  "version": "0.0.0",
+  "description": "CONTRIBUTING.md generator",
+  "main": "index.js",
+  "files": [
+    "*.md",
+    "*.js"
+  ],
+  "bin": "./index.js",
+  "scripts": {
+    "preversion": "npm t",
+    "postversion": "npm publish && git push --follow-tags",
+    "pretest": "standard lib test *.js",
+    "test": "nyc -- tap test/*.js"
+  },
+  "repository": "https://github.com/wealljs/weallcontribute",
+  "keywords": [
+    "documentation",
+    "projects"
+  ],
+  "author": "Kat Marchán <kzm@sykosomatic.org>",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "hosted-git-info": "^2.2.0",
+    "yargs": "^6.6.0"
+  },
+  "devDependencies": {
+    "nyc": "^10.0.0",
+    "standard": "^8.6.0",
+    "tap": "^8.0.1"
+  }
+}
