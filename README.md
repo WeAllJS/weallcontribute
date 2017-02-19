@@ -19,7 +19,7 @@
 // package.json
 {
   "scripts": {
-    "update-contrib": "weallcontribute -o . && git commit add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
+    "update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
   }
 }
 // Now you can do `npm run update-contrib` any time you
