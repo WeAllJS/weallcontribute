@@ -33,7 +33,8 @@ The [Project Team](#join-the-project-team) looks forward to your contributions. 
 
 If you have a question about this project, how to use it, or just need clarification about something:
 
-* Open an Issue at https://github.com/wealljs/weallcontribute/issues
+* First, search the issues to see if someone else already had the same problem as you.
+* If not, open an issue at https://github.com/wealljs/weallcontribute/issues.
 * Provide as much context as you can about what you're running into.
 * Provide project and platform versions (nodejs, npm, etc), depending on what seems relevant. If not, please be ready to provide that information if maintainers ask for it.
 
@@ -47,7 +48,9 @@ Once it's filed:
 
 If you run into an error or bug with the project:
 
-* Open an Issue at https://github.com/wealljs/weallcontribute/issues
+* First, search the open issues to see if someone else already reported this error or bug.
+* If it's the case, add a +1 (thumb up reaction) to the issue and reply to the thread if you have something useful to add.
+* If nobody submitted this error or bug, open an issue at https://github.com/wealljs/weallcontribute/issues.
 * Include *reproduction steps* that someone else can follow to recreate the bug or error on their own.
 * Provide project and platform versions (nodejs, npm, etc), depending on what seems relevant. If not, please be ready to provide that information if maintainers ask for it.
 
@@ -63,7 +66,9 @@ Once it's filed:
 
 If the project doesn't do something you need or want it to do:
 
-* Open an Issue at https://github.com/wealljs/weallcontribute/issues
+* First, search the open issues to see if someone else already requested that feature.
+* If it's the case, add a +1 (thumb up reaction) to the initial request and reply to the thread if you have something meaningful to add.
+* If nobody submitted this request, open an issue at https://github.com/wealljs/weallcontribute/issues.
 * Provide as much context as you can about what you're running into.
 * Please try and be clear about why existing features and alternatives would not work for you.
 
