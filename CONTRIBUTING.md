@@ -226,7 +226,14 @@ Some notes:
 
 [Needs Collaborator](#join-the-project-team): Committer
 
-TBD - need to hash out a bit more of this process.
+PR merge are only done by team members with Committer permission or owning the project. It's a critical part of the contribution flow as this is where code contribution are being added to the main branch. Before merging any PR, define what is the best way to do it for the project: should you merge or rebase the approved PR into the `latest` branch. Ensure that the PR have no conflicts with the base branch, and if so, either ask the committer to fix it by submitting a new PR or fix it yourself if you have the capacity.
+
+Some notes:
+
+* Merge only the PR that have been [reviewed](#review-pull-requests) and approved.
+* Validate that all approbation criteria have been met (mistakes happen): covered by tests, commit message respect the convention...
+* If you merge instead or rebasing the PRs, please add a meaningful comment, respecting the [conventional-changelog format](https://github.com/conventional-changelog/conventional-changelog-angular/blob/master/convention.md), to your commit message.
+
 
 ## Tag A Release
 
