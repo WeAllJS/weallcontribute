@@ -232,7 +232,17 @@ TBD - need to hash out a bit more of this process.
 
 [Needs Collaborator](#join-the-project-team): Committer
 
-TBD - need to hash out a bit more of this process. The most important bit here is probably that all tests must pass, and tags must use [semver](https://semver.org).
+Once you have the latest branch ready to be released, the next step is to create a tag. Only a committer or the repository owner can create a new tag. To determine the version number, refer yourself to the [Semantic Versioning Specification (SemVer)](https://semver.org/). 
+
+To ensure that you can rebase or rewrite the release commits freely, create  a release-x.y.z branch on which to land all changes before finally releasing it to the respective target branch. Before moving forward with the tag, ensure that all the tests pass. Once you tagged a new version, you should [generate a new release](https://help.github.com/articles/creating-releases/) on GitHub. In the title, add the version you just tagged, and create a changelog to add into the description area. You should order the changes five main sections:
+
+1. NEW FEATURES : every new feature
+1. BUGFIXES : every bug fixes, no matter the size
+1. DOCS UPDATES : anything documentation related
+1. DEPENDENCIES : updates or changes about the dependencies your project is using
+1. MISCELLANEOUS : anything else that doesn't fit in the previous categories.
+
+Once you review everything, add the description you just created at the top of `CHANGELOG.md` file.
 
 ## Join the Project Team
 
