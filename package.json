@@ -33,7 +33,7 @@
   "devDependencies": {
     "nyc": "^10.0.0",
     "standard": "^8.6.0",
-    "tap": "^8.0.1",
+    "tap": "^12.6.4",
     "weallbehave": "^1.0.0"
   }
 }
