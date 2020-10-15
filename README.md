@@ -2,7 +2,7 @@
 
 [`weallcontribute`](https://npm.im/weallcontribute) is a command-line tool for automatically generating and updating [`CONTRIBUTING.md`](https://github.com/blog/1184-contributing-guidelines) guidelines for your projects.
 
-## Install
+## INSTALL
 
 #### Locally to your npm project (recommended):
 
