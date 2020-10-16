@@ -1,3 +1,3 @@
 var test = require('tap').test
 
-test('CLI script works at all')
+test('CLI script works at all places')
