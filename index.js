@@ -18,7 +18,7 @@ var repo = yargs.argv._[0]
 if (!repo) {
   try {
     repo = require(path.join(process.cwd(), 'package.json')).repository
-    repo = repo.url || repo
+    repo = repo && repo.url ? repo.url : repo
     console.warn('Using project repo from package.json')
   } catch (e) { console.error(e) }
 }
