@@ -29,7 +29,7 @@
 
 ### Global CLI install
 ```sh
-# Read your repo info from package.json or git
+# Read your repo info from package.json 
 # and pipe the output to `contribs.md`
 $ weallcontribute > contribs.md
 
